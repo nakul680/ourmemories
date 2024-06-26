@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Gloria Hallelujah, cursive;
   margin: 0;
   padding: 0;
   background-color: #ffffff; /* Pastel blue background */
@@ -143,7 +143,7 @@ section img {
 }
 
 .timeline-content {
-  color: #7d8a97; /* Soft gray-blue for text */
+  color: #000000; /* Soft gray-blue for text */
 }
 
 .timeline-content img {
