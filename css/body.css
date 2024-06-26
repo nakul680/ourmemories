@@ -76,3 +76,63 @@ section img {
   border: 2px solid #e6f7ff; /* Matching the background color */
   border-radius: 8px;
 }
+
+#timeline {
+  padding: 20px;
+  background-color: #f0faff; /* Lighter pastel blue */
+  border-left: 5px solid #5b9aa0; /* Darker pastel blue border */
+}
+
+.timeline-container {
+  position: relative;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #a6dcef; /* Light pastel blue */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 2px solid #a6dcef; /* Light pastel blue */
+  border-radius: 50%;
+  top: 0;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #5b9aa0; /* Darker pastel blue */
+}
+
+.timeline-content {
+  margin-left: 40px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #e6f7ff; /* Matching the background color */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
