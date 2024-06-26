@@ -12,7 +12,8 @@ body {
 }
 
 header {
-  background-color: #E1AFD1; /* Light pastel blue */
+  font-family: Gloria Hallelujah, cursive;
+  background-color: #7469B6; /* Light pastel blue */
   color: #FFE6E6;
   padding: 10px 0;
   text-align: center;
@@ -57,7 +58,7 @@ section h2 {
 }
 
 section p {
-  color: #7d8a97; /* Soft gray-blue for text */
+  color: #000000; /* Soft gray-blue for text */
 }
 
 footer {
