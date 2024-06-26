@@ -105,7 +105,7 @@ section img {
 .timeline-item {
   position: relative;
   margin: 20px 0;
-  width: 50%;
+  width: 45%;
   padding: 20px;
   background: #FFE6E6;
   border-radius: 8px;
@@ -141,6 +141,7 @@ section img {
   font-weight: bold;
   color: #AD88C6; /* Darker pastel blue */
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .timeline-content {
