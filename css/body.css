@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e6f7ff; /* Pastel blue background */
+  background-color: #ffffff; /* Pastel blue background */
 }
 
 .container {
@@ -49,11 +49,11 @@ section {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-left: 5px solid #a6dcef; /* Light pastel blue border */
+  border-left: 5px solid #AD88C6; /* Light pastel blue border */
 }
 
 section h2 {
-  color: #5b9aa0; /* A slightly darker pastel blue */
+  color: #AD88C6; /* A slightly darker pastel blue */
 }
 
 section p {
@@ -81,7 +81,7 @@ section img {
 #timeline {
   padding: 20px;
   background-color: #f0faff; /* Lighter pastel blue */
-  border-left: 5px solid #5b9aa0; /* Darker pastel blue border */
+  border-left: 5px solid #AD88C6; /* Darker pastel blue border */
 }
 
 .timeline {
@@ -138,7 +138,7 @@ section img {
 
 .timeline-date {
   font-weight: bold;
-  color: #5b9aa0; /* Darker pastel blue */
+  color: #AD88C6; /* Darker pastel blue */
   margin-bottom: 10px;
 }
 
