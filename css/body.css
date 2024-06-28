@@ -1,18 +1,20 @@
 :root {
   --adjuster: 30px;
-  --background: #FFEC9E;
-  --background2: #F7C566;
-  --text: #6C0345;
-  --border: #DC6B19;
+  --background: #DA627D;
+  /* --background2: #dac83e; */
+  --background2: #FCA17D;
+  --text: #3D1438;
+  --border: #620436;
 
 }
 
 /* styles.css */
 body {
-  font-family: Gloria Hallelujah, cursive;
+  font-family: 'Quicksand', cursive;
   margin: 0;
   padding: 0;
   background-color: var(--background2); /* Pastel blue background */
+  font-size: 18px;
 }
 
 .container {
@@ -21,11 +23,24 @@ body {
 }
 
 header {
-  font-family: Gloria Hallelujah, cursive;
+  font-family: 'Indie Flower', cursive;
   color: var(--text); /* Light pastel blue */
   background-color: var(--background2);
   padding: 10px 0;
   text-align: center;
+}
+.sticker {
+  position: relative;
+  top: 0;
+  width: 10%;
+  z-index: 1000;
+}
+
+header img {
+  max-width: 20%;
+  height: auto;
+  /* display: block;
+  margin: 0 auto; */
 }
 
 header h1 {
@@ -176,7 +191,7 @@ section img {
 }
 
 .timeline-content {
-  color: #000000; /* Soft gray-blue for text */
+  color: var(--text); /* Soft gray-blue for text */
 }
 
 .timeline-content img {
