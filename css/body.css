@@ -1,10 +1,10 @@
 :root {
   --adjuster: 30px;
-  --background: #DA627D;
+  --background: #606c38;
   /* --background2: #dac83e; */
-  --background2: #FCA17D;
-  --text: #3D1438;
-  --border: #620436;
+  --background2: #fefae0;
+  --text: #65041d;
+  --border: #283618;
 
 }
 
@@ -159,7 +159,7 @@ section img {
   height: calc(120% );
   left : calc(100% + var(--adjuster) - (2px ));
   /* left : calc(50% - 2px); */
-  background-color: var(--border); /* Light pastel blue */
+  background-color: var(--background); /* Light pastel blue */
   /* top: 20px; */
   
   z-index: 0;
@@ -185,9 +185,9 @@ section img {
 
 .timeline-date {
   font-weight: bold;
-  color: var(--text); /* Darker pastel blue */
+  color: var(--background2); /* Darker pastel blue */
   margin-bottom: 10px;
-  text-align: center;
+  text-align:center;
 }
 
 .timeline-content {
