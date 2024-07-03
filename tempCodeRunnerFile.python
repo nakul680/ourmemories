@@ -1,0 +1,29 @@
+
+
+def fun4(n1,n2):
+    # print(fun2(n2,fun3(n1)))
+    return fun2(n2,fun3(n1))
+
+
+def fun2(x,y):
+    if y ==0:
+        return x
+    else:
+        print(fun1(fun2(x,y-1)))
+        return fun1(fun2(x,y))
+
+def fun1(x):
+    if x == 0:
+        return 0
+    else:
+        #print(x-1)
+        return x-1
+    
+def fun3(x):
+    if x == 0:
+        return 0
+    else:
+        print(((x+1)*(x+1)) + fun3(x-1))
+        return ((x+1)*(x+1)) + fun3(x-1)
+
+print(fun4(20,150))
