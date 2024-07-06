@@ -82,7 +82,13 @@ section h2 {
 }
 
 section p {
-  color: var(--background2); /* Soft gray-blue for text */
+  color: var(--background2);
+  font-family: "Georgia", serif; /* Soft gray-blue for text */
+}
+
+section t {
+  color: var(--background); /* Soft gray-blue for text */
+  font-family: "Georgia", serif;
 }
 
 footer {
